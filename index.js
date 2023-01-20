@@ -1,7 +1,7 @@
 const { ApolloServer } = require('apollo-server');
 const mongoose = require('mongoose');
 
-const MONGODB = "mongodb+srv://kmmramos:Year2022-0221@cluster0.rsugnbh.mongodb.net/?retryWrites=true&w=majority";
+const MONGODB = "mongodb+srv://<username>:<password>@cluster0.rsugnbh.mongodb.net/?retryWrites=true&w=majority";
 
 // Apollo Server
 // typeDefs: GraphQL Type Definitions
